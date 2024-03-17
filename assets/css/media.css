@@ -1,0 +1,441 @@
+/* 1199 to 991 media-query  */
+
+@media (max-width:1199px) {
+
+    .banner .img .containt p {
+        font-size: 48px;
+        line-height: 1.1;
+        margin-bottom: 25px;
+        /* text-transform: capitalize; */
+    }
+
+    .Category .inner .img .btn a {
+        font-size: 12px;
+    }
+
+
+    .Category .inner .item.item-6 {
+        display: none;
+    }
+
+    .Category .inner .item.item-5 {
+        display: none;
+    }
+
+    .Category .inner .item {
+        width: 25%;
+    }
+
+    .ad-block .inner {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .brands .inner .logos {
+        width: 25%;
+    }
+
+    .brands .inner .item-5 {
+        display: none;
+    }
+}
+
+/* 991 to 768 media-query  */
+
+@media (max-width:992px) {
+
+    .header .header-midd .inner .left {
+        width: 20%;
+    }
+
+    .header .header-midd .inner .right {
+        width: 40%;
+    }
+
+    .header .header-midd .inner .midd {
+        width: 40%;
+    }
+
+    .banner .img .containt a {
+        padding: 10px 20px;
+        min-width: 130px;
+    }
+
+    .banner .img .containt p {
+        font-size: 42px;
+        margin-bottom: 20px;
+    }
+
+    .services .inner .item {
+        width: 33.33%;
+        display: block;
+        text-align: center;
+    }
+
+    .Category .inner .item-4 {
+        display: none;
+    }
+
+    .Category .inner .item {
+        width: 33.33%;
+    }
+
+    .featured-collection .inner {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .featured-collection .inner .item {
+        width: 33.33%;
+    }
+
+    .banner-2 .inner .image .text p {
+        font-size: 48px;
+        color: #fff;
+    }
+
+    .banner-2 .inner .image .text a {
+        font-size: 24px;
+        color: #fff;
+    }
+
+    .banner-2 .inner .image .text .btn::after {
+        left: 39%;
+    }
+
+    .review .inner {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .brands .inner .logos {
+        width: 33.33%;
+    }
+
+    .brands .inner .item-5 {
+        display: none;
+    }
+
+    .brands .inner .item-4 {
+        display: none;
+    }
+
+    .heading {
+        font-size: 30px;
+    }
+
+    .heading span::before {
+        width: 100px;
+    }
+
+    .heading span::after {
+        width: 100px;
+    }
+
+    .email .inner form .input {
+        width: 50%;
+    }
+
+    .fotter-top .inner .block {
+        width: 50%;
+    }
+
+    .fotter-top .inner {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:768px) {
+    .header-top {
+        display: none;
+    }
+
+    .header .header-midd .inner .left i {
+        display: block;
+    }
+
+    .header .header-bottom {
+        background-color: #051829;
+        display: none;
+    }
+
+    .header .header-midd .inner .left {
+        width: 50%;
+    }
+
+    .header .header-midd .inner .midd {
+        display: none;
+    }
+
+    .header .header-midd .inner .right {
+        width: 50%;
+    }
+
+    .header .header-midd .inner .right .item i {
+        font-size: 16px;
+    }
+
+    .header .header-midd .inner .right .item .text {
+        display: none;
+    }
+
+    .featured-collection .inner .item {
+        width: 50%;
+    }
+
+    .header .header-midd .inner .right .item {
+        padding-left: 0px;
+    }
+
+    .header .header-midd .inner .right .search,
+    .header .header-midd .inner .right .sign-up {
+        display: block;
+    }
+
+    .Category .inner {
+        padding: 0px 0px;
+    }
+
+    .Category .inner .prev-btn {
+        left: 0px;
+    }
+
+    .Category .inner .next-btn {
+        right: 0px;
+    }
+
+    .banner .img .containt p {
+        font-size: 34px;
+        margin-bottom: 5px;
+        padding-bottom: 5px;
+    }
+
+    .banner .img .containt a {
+        font-size: 13px;
+        padding: 7px 10px;
+        min-width: 130px;
+    }
+
+    .banner .img .containt {
+        margin-left: 50px;
+    }
+
+    .banner-2 .inner .image .text p {
+        font-size: 34px;
+    }
+
+    .review .inner .customer-comment {
+        padding-left: 28px;
+    }
+
+    .email .inner form .input {
+        padding: 12px 175px 12px 20px;
+    }
+
+    .email .inner form .input .btn button {
+        padding: 10px 30px;
+    }
+
+    .email .inner form .input {
+        width: 60%;
+    }
+    .footer-bottom .inner .left {
+        width: 100%;
+    }
+    .footer-bottom .inner {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer-bottom .inner .left p {
+        font-size: 16px;
+        text-align: center;
+    }
+    .footer-bottom .inner .right .list {
+        position: absolute;
+        right: 0;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .footer-bottom .inner .right ul {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width:639px) {
+    .header .header-midd .inner .left i {
+        display: block;
+    }
+
+    .banner .img .containt p {
+        font-size: 24px;
+    }
+    .header .header-midd .inner .right .item {
+        padding-top: 5px;
+        width: 50%;
+        text-align: end;
+    }
+
+    .banner .img .prev-btn {
+        width: 30px;
+        height: 30px;
+        padding-top: 4px;
+    }
+
+    .banner .img .prev-btn {
+        font-size: 16px;
+    }
+
+    .banner .img .next-btn {
+        width: 30px;
+        height: 30px;
+        padding-top: 4px;
+    }
+
+    .banner .img .next-btn {
+        font-size: 16px;
+    }
+
+    .banner .img .containt {
+        margin-left: 30px;
+    }
+
+    .services .inner .item {
+        display: flex;
+        justify-content: left;
+        margin-left: 30px;
+        margin-bottom: 10px;
+    }
+
+    .services .inner {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .services .inner .item {
+        width: 100%;
+        text-align: left;
+    }
+
+    .services .inner .item .contain {
+        margin-left: 33px;
+    }
+
+    .services .inner .item .icon.money {
+        margin-right: 15px;
+    }
+
+    .Category .inner .prev-btn,
+    .Category .inner .next-btn {
+        width: 30px;
+        height: 30px;
+        font-size: 16px;
+    }
+
+    .ad-block {
+        display: none;
+    }
+}
+
+@media (max-width:439px) {
+    .header .header-midd .inner .right {
+        width: 50%;
+        flex-wrap: wrap;
+        padding-top: 10px;
+    }
+    .header .header-midd .inner {
+        padding: 0px 0px;
+    }
+    .header .header-midd .inner .left {
+        width: 50%;
+        padding-top: 35px;
+    }
+    .header .header-midd .inner .right .item {
+        padding-top: 5px;
+        width: 50%;
+        text-align: end;
+    }
+    .header .header-midd .inner .left i {
+        margin-right: 10px;
+        padding-top: 0px;
+    }
+
+    .header .header-midd .inner .left img {
+        width: 100%;
+        display: block;
+        height: auto;
+    }
+
+    .banner .img .containt p {
+        font-size: 16px;
+    }
+
+    .banner .img .containt a {
+        min-width: 100px;
+    }
+
+    .banner .img .containt p {
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+
+    .services .inner .item .contain {
+        margin-left: 0px;
+    }
+
+    .Category .inner .item.item-3 {
+        display: none;
+    }
+
+    .Category .inner .item {
+        width: 50%;
+    }
+
+    .featured-collection .inner .item {
+        width: 100%;
+    }
+
+    .banner-2 .inner .image .text p {
+        font-size: 18px;
+    }
+
+    .banner-2 .inner .image .text a {
+        font-size: 17px;
+        color: #fff;
+    }
+
+    .banner-2 .inner .image .text .btn::after {
+        display: none;
+    }
+
+    .brands .inner .item-2 {
+        display: none;
+    }
+
+    .brands .inner .logos {
+        width: 50%;
+    }
+
+    .heading span::after {
+        display: none;
+    }
+
+    .heading span::before {
+        display: none;
+    }
+
+    .fotter-top .inner .block {
+        width: 100%;
+    }
+    .email .inner form .input {
+        width: 60%;
+    }
+    .email .inner form .input {
+        padding: 12px 99px 12px 20px;
+    }
+}
